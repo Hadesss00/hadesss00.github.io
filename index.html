@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Game Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">HADES<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#portfolio">Games</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+<header id="hero">
+  <div class="hero-container"> 
+    <div class="hero-text">
+      <h1>I Build Worlds.</h1>
+      <p>Indie Game Developer | Unity Specialist | Level Designer</p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn primary">View My Games</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/harang.png" alt="Featured Game Art">
+      
+      <div class="floating-badge">
+        <span>Latest Release</span>
+        <strong>HARANG</strong>
+      </div>
+
+      <div class="coming-soon">
+        <div class="pulse-dot"></div>
+        <div class="coming-soon-text">
+            <span>In Development</span>
+            <strong>State of Emergency</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#portfolio" class="scroll-down">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    <span>Scroll to Explore</span>
+  </a>
+</header>
+
+    <section id="portfolio">
+      <div class="section-title">
+        <h2>Selected Works</h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="horror">Horror</button>
+        <button class="filter-btn" data-filter="side scroller">
+          Side Scroller
+        </button>
+        <button class="filter-btn" data-filter="educational">
+          Educational
+        </button>
+      </div>
+
+      <div class="game-grid">
+        <div class="game-card" data-category="horror">
+          <div class="card-image">
+            <img
+              src="images/nightshift.png"
+              alt="Night Shift"
+              class="pixel-art"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Night Shift</h3>
+            <p class="tech-stack">Unity • C# • Maya</p>
+            <p>A Psychological Horror FPOV game</p>
+            <a href="https://hadessss00.itch.io/nightshift" class="play-link"
+              >Play on Itch.io <i class="fab fa-itch-io"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="game-card" data-category="side scroller">
+          <div class="card-image">
+            <img src="images/harang.png" alt="HARANG" class="pixel-art" />
+          </div>
+          <div class="card-content">
+            <h3>HARANG</h3>
+            <p class="tech-stack">Unity • C# • Maya</p>
+            <p>
+              This is a 3D side-scroller survival-action game set in a haunted
+              Bicol village.
+            </p>
+            <a href="https://play-forge.itch.io/harang" class="play-link"
+              >Play on Itch.io <i class="fab fa-itch-io"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="game-card" data-category="educational">
+          <div class="card-image">
+            <img
+              src="images/stateofemergency.jpg"
+              alt="State-Of-Emergency"
+              class="pixel-art"
+            />
+          </div>
+          <div class="card-content">
+            <h3>State-Of-Emergency</h3>
+            <p class="tech-stack">Unity • C# • Maya</p>
+            <p>A 3D Educational/Simulation Fire Prevention game</p>
+            <a href="#" class="play-link"
+              >Coming Soon</i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I am a passionate game developer and student with over 3 years of experience. I specialize in gameplay mechanics and AI behavior, transforming abstract concepts into engaging, playable experiences.
+          </p>
+
+          <h3>Tech Stack</h3>
+          <div class="skills">
+            <span>Unity</span>
+            <span>C#</span>
+            <span>Maya</span>
+            <span>Git</span>
+            <span>Photoshop</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <h2>Let's Make Something Awesome</h2>
+      <div class="socials">
+        <a href="mailto:jomariegesmundo2@gmail.com" title="Email Me">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://facebook.com/Jomarie Apring Gesmundo">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://hadessss00.itch.io/"><i class="fab fa-itch-io"></i></a>
+        <a href="https://github.com/Hadesss00"><i class="fab fa-github"></i></a>
+      </div>
+      <p>&copy; 2025 HADES. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
